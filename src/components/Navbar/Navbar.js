@@ -55,9 +55,10 @@ function Navbar(){
                     setProfileButtonInfo((state) => !state);
                 }}>
                     <li className="text-xl text-white rounded-full shadow-lg hover:cursor-pointer">
+                        {console.log(user.profile)}
                         <img 
                             className="h-9 w-9 rounded-full"
-                            src={`${user.profile.profile_picture}`}
+                            src={user.profile.profile_picture}
                             alt="pp"
                         />
                         {profileButtonInfo && (
