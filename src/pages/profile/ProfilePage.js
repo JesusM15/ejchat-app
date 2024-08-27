@@ -129,7 +129,7 @@ function ProfilePage(){
                 <section className="flex flex-col md:flex-row p-4 md:w-3/4 lg:w-2/3 mx-auto">
                     {/* Profile Picture and User Info */}
                     <div className="flex-shrink-0 w-20 h-20 md:w-28 md:h-28 lg:w-32 lg:h-32 rounded-full overflow-hidden border-2 border-gray-300">
-                        <img src={`${FILES_URL}${userProfile.profile.profile_picture}`} alt={`${userProfile.username}'s profile`} className="w-full h-full object-cover" />
+                        <img src={`${userProfile.profile.profile_picture}`} alt={`${userProfile.username}'s profile`} className="w-full h-full object-cover" />
                     </div>
                     
                     <div className="ml-4 md:ml-8 flex flex-col justify-start flex-grow">

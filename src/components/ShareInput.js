@@ -49,7 +49,7 @@ const ShareInput = ({ user, currentItem, setCurrentItem, label, submitText, hand
         <div className={`flex w-full flex-col p-2 rounded-lg ${removeBorder ? '' : 'shadow-md'} bg-white`}>
             <div className="flex border-b w-full p-1 items-center">
                 <img
-                    src={`${FILES_URL}${user.profile.profile_picture}`}
+                    src={`${user.profile.profile_picture}`}
                     className="h-11 w-11 rounded-full"
                     alt={`Foto de perfil ${user.username} desde EJChat`}
                 />

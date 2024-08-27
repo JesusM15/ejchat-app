@@ -30,7 +30,7 @@ const ConfirmUnfollowModal = ({ isOpen, onClose, onConfirm, user, areFriends }) 
                 
                 <div className="flex items-center mb-4">
                     <img
-                        src={`${FILES_URL}${user.profile.profile_picture}` || '/default-profile.png'}
+                        src={`${user.profile.profile_picture}` || '/default-profile.png'}
                         alt={user.username}
                         className="w-16 h-16 rounded-full object-cover mr-4"
                     />

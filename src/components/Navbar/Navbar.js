@@ -57,7 +57,7 @@ function Navbar(){
                     <li className="text-xl text-white rounded-full shadow-lg hover:cursor-pointer">
                         <img 
                             className="h-9 w-9 rounded-full"
-                            src={`${FILES_URL}${user.profile.profile_picture}`}
+                            src={`${user.profile.profile_picture}`}
                             alt="pp"
                         />
                         {profileButtonInfo && (
@@ -71,7 +71,7 @@ function Navbar(){
                                     <li className="flex items-center gap-2 p-1 hover:bg-gray-100">
                                             <img 
                                                 className="h-8 w-8"
-                                                src={`${FILES_URL}${user.profile.profile_picture}`}
+                                                src={`${user.profile.profile_picture}`}
                                                 alt="pp"
                                             />
                                             <span className="text-gray-800">

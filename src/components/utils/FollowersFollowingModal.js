@@ -27,7 +27,7 @@ const FollowersFollowingModal = ({ isOpen, onClose, title, users }) => {
                                     onClose();
                                 }}>
                                     <img
-                                        src={`${FILES_URL}${user.profile.profile_picture}` || '/default-profile.png'}
+                                        src={`${user.profile.profile_picture}` || '/default-profile.png'}
                                         alt={user.username}
                                         className="w-12 h-12 rounded-full object-cover"
                                     />

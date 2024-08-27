@@ -80,7 +80,7 @@ function PostBox({ post, handleShowModal }){
                 e.preventDefault();
                 navigate(`/profile/${post.user.id}`, { replace: true });
             }}>
-                <img className="h-11 w-11 rounded-full" src={`${FILES_URL}${post.user.profile_picture} `} alt={`Foto de perfil de ${post.user.username}`}/>
+                <img className="h-11 w-11 rounded-full" src={`${post.user.profile_picture} `} alt={`Foto de perfil de ${post.user.username}`}/>
                 {post.user.is_active ? 
                 <span className="h-2 w-2 rounded-full absolute right-0 bottom-0 bg-green-600"></span> 
                 : <span className="h-2 w-2 rounded-full absolute right-0 bottom-0 border-gray-900 bg-gray-600 border"></span>}
