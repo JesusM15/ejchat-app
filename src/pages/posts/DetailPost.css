@@ -1,0 +1,75 @@
+.slick-prev,
+.slick-next {
+    z-index: 1;
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 50%;
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.slick-prev:hover,
+.slick-next:hover {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+.slick-prev::before,
+.slick-next::before {
+    font-size: 20px;
+    color: white;
+    opacity: 1;
+}
+
+.slick-dots li button::before {
+    font-size: 12px;
+    color: white;
+}
+
+.slick-dots li.slick-active button::before {
+    color: white;
+}
+
+.slick-prev {
+    left: 10px;
+}
+
+.slick-next {
+    right: 10px;
+}
+
+.h-90vh{
+    height: 90vh;
+}
+
+.custom-height {
+    max-height: 500px !important; /* Ajusta según lo que necesites */
+}
+
+.slick-slider {
+    align-items: center;
+    display: flex;
+}
+
+.details-container {
+    padding: 1rem;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.comments-container {
+    padding: 1rem;
+    max-height: 50vh;
+    /* Puedes ajustar más estilos aquí si es necesario */
+}
+
+
+.input-container {
+    padding: 1rem;
+    border-top: 1px solid #eaeaea;
+}
+
+.max-h-500{
+    max-height: 60vh;
+}
