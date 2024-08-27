@@ -4,7 +4,7 @@ const API = axios.create({
   baseURL: 'https://ejchat-api.onrender.com/api',  // Asegúrate de que esta URL apunte a tu backend Django
 });
 
-export const FILES_URL = 'https://ejchat-api.onrender.com';
+export const FILES_URL = '';
 
 // Puedes definir aquí las llamadas a la API, por ejemplo:
 export const fetchPosts = () => API.get('/posts');
